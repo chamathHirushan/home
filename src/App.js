@@ -1,21 +1,21 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import {
-  navBar,
-  mainBody,
-  about,
-  repos,
-  leadership,
-  skills,
-  getInTouch,
-  experiences
-} from "./editable-stuff/config.js";
-import MainBody from "./components/home/MainBody";
-import AboutMe from "./components/home/AboutMe";
-import Project from "./components/home/Project";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import AboutMe from "./components/home/AboutMe";
+import MainBody from "./components/home/MainBody";
+import Project from "./components/home/Project";
 import Skills from "./components/home/Skills";
+import {
+  about,
+  experiences,
+  getInTouch,
+  leadership,
+  mainBody,
+  navBar,
+  repos,
+  skills
+} from "./editable-stuff/config.js";
 // import { Blog } from "./components/blog/Blog";
 // import BlogPost from "./components/blog/BlogPost";
 import GetInTouch from "./components/home/GetInTouch.jsx";
